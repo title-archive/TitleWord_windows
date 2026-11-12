@@ -1,0 +1,1 @@
+{"default":{"identifier":"default","description":"Права главного окна: только базовый API ядра, файловая система и shell не нужны.","local":true,"windows":["main"],"permissions":["core:default"]}}

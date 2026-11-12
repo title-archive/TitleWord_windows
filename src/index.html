@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <title>Title Word</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-theme="light">
+  <!-- Экран загрузки: статичная разметка, чтобы он был виден до запуска скриптов. -->
+  <div id="splash" class="splash">
+    <div class="splash-inner">
+      <div class="splash-logo">Title&nbsp;word</div>
+      <div class="splash-spinner" aria-hidden="true"></div>
+      <div class="splash-status" id="splashStatus">Загружаем приложение…</div>
+      <div class="splash-version" id="splashVersion"></div>
+    </div>
+  </div>
+
+  <div id="app" class="app"></div>
+
+  <script src="packzip.js" defer></script>
+  <script src="viewer3d.js" defer></script>
+  <script src="main.js" defer></script>
+</body>
+</html>

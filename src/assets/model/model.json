@@ -1,0 +1,10 @@
+{
+  "name": "Rust Gear",
+  "text": "Title Rust",
+  "subtitle": "Модель из src/assets/model",
+  "duration_seconds": 5.0,
+  "scale": 1.0,
+  "spin_turns": 1.25,
+  "color": [0.78, 0.36, 0.18],
+  "color_alt": [0.28, 0.22, 0.20]
+}
